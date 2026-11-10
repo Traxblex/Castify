@@ -1,0 +1,55 @@
+Liste des fonctions par rôles (Use Case)
+==========================================
+
+
+1. Visiteur (non connecté)
+
+    - Consulter la page d'accueil de présentation de Castyfy.
+    - Accéder à la page de connexion pour s'authentifier.
+    - Créer un compte en choisissant son rôle (acteur ou producteur) via la page d'inscription.
+
+
+2. Acteur (candidat)
+
+    - Se connecter à son espace personnel avec son email et son mot de passe.
+    - Consulter son profil (nom, prénom, email, téléphone, expérience, disponibilité).
+    - Modifier les informations de son profil (nom, prénom, email, téléphone, expérience, mot de passe).
+    - Changer son statut de disponibilité (disponible / non disponible) via un bouton sur son profil.
+    - Consulter la liste de toutes les offres de casting disponibles sur la plateforme.
+    - Consulter le détail d'une offre de casting (libellé, description, film associé, distribution).
+    - Postuler à une offre de casting (créer une inscription avec le statut "en attente").
+    - Consulter l'historique de ses candidatures (liste de ses inscriptions avec leur statut).
+    - Supprimer une de ses candidatures.
+    - Se déconnecter de la plateforme.
+
+
+3. Producteur (recruteur)
+
+    - Se connecter à son espace personnel avec son email et son mot de passe.
+    - Consulter son profil (nom, prénom, email, téléphone).
+    - Modifier les informations de son profil (nom, prénom, email, téléphone, mot de passe).
+    - Consulter la liste de toutes les offres de casting.
+    - Consulter le détail d'une offre de casting.
+    - Créer une nouvelle offre de casting (avec possibilité de créer un nouveau film ou d'en sélectionner un existant).
+    - Modifier une de ses offres de casting (libellé, description, film, affiche).
+    - Supprimer une de ses offres de casting (et les inscriptions liées).
+    - Consulter la liste des candidatures reçues sur ses offres.
+    - Modifier le statut d'une candidature (accepté, refusé, en attente).
+    - Rechercher et consulter la liste des acteurs (nom, prénom, expérience, email, téléphone, disponibilité).
+    - Se déconnecter de la plateforme.
+
+
+4. Administrateur (modérateur)
+
+    - Se connecter avec le compte administrateur (admin@admin.com / admin).
+    - Consulter le tableau de bord administrateur.
+    - Gérer les acteurs : consulter la liste, ajouter, modifier et supprimer un acteur.
+    - Gérer les producteurs : consulter la liste, ajouter, modifier et supprimer un producteur (suppression en cascade : films, offres, inscriptions).
+    - Gérer les offres : consulter la liste, ajouter, modifier et supprimer une offre de casting.
+    - Gérer les inscriptions : consulter la liste, ajouter, modifier le statut et supprimer une inscription.
+    - Consulter la page de statistiques globales de la plateforme :
+        * Nombre total d'acteurs, producteurs, films, offres et inscriptions.
+        * Pourcentage d'acteurs disponibles.
+        * Répartition des candidatures par statut (accepté, refusé, en attente) avec pourcentages.
+        * Indicateurs clés : nombre moyen d'offres par film, candidatures par offre, candidatures par acteur.
+    - Se déconnecter de la plateforme.
