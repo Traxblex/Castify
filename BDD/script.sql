@@ -11,7 +11,7 @@ CREATE TABLE acteurs (
     email VARCHAR(255) NOT NULL UNIQUE,
     mdp VARCHAR(255) NOT NULL,
     telephone VARCHAR(255) NOT NULL UNIQUE,
-    disponible ENUM('disponible', 'non disponible'),
+    disponible ENUM('disponible', 'non disponible','en attente'),
     PRIMARY KEY (id)
 );
 
