@@ -1,5 +1,5 @@
 <?php
-include('bdd/bdd.php');
+include('BDD/bdd.php');
 
 $reqDispo = $bdd->prepare("SELECT disponible FROM acteurs WHERE id = ?");
 $reqDispo->execute([$_SESSION['user_id']]);

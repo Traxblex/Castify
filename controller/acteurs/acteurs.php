@@ -1,6 +1,6 @@
 <?php 
 
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 
 $req = $bdd->prepare('SELECT * FROM acteurs');
 $req->execute();

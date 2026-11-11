@@ -1,5 +1,5 @@
 <?php
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 
 $search = isset($_GET['search']) ? trim($_GET['search']) : '';
 

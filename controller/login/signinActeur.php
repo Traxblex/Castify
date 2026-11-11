@@ -1,5 +1,5 @@
 <?php
-include('bdd/bdd.php');
+include('BDD/bdd.php');
 
 if (isset($_POST['valider'])) {
     $genre = $_POST['genre'];

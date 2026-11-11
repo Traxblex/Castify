@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../bdd/bdd.php');
+include('../../BDD/bdd.php');
 
 if (isset($_POST['modifier'])) {
     $id = $_SESSION['user_id'];

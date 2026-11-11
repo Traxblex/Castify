@@ -1,5 +1,5 @@
 <?php 
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 
 $id = $_GET['id'];
 

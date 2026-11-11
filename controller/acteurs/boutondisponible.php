@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../bdd/bdd.php');
+include('../../BDD/bdd.php');
 
 if (isset($_POST['changer_statut']) && isset($_SESSION['user_id'])) {
     $reqDispo = $bdd->prepare("SELECT disponible FROM acteurs WHERE id = ?");

@@ -1,6 +1,6 @@
 <?php 
 
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 
 $now = date('Y-m-d H:i:s');
 

@@ -1,5 +1,5 @@
 <?php
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 
 // Compteurs principaux
 $reqActeurs = $bdd->prepare('SELECT COUNT(*) as nb FROM acteurs');
