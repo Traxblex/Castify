@@ -51,7 +51,7 @@ switch ($page) {
     break;
 
     case 'ajouteroffers':
-        include('view/offers/ajouteroffre.php');
+        include('view/offers/ajouterOffre.php');
     break;
 
     case 'modifierOffre':
@@ -111,5 +111,5 @@ switch ($page) {
     break;
 }
 
-    include('View/Commun/footer.php');
+    include('view/commun/footer.php');
 ?>

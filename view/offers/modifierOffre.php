@@ -1,6 +1,6 @@
 <?php
 include ('controller/offers/detailOffre.php');
-include ('bdd/bdd.php');
+include ('BDD/bdd.php');
 include ('controller/producteurs/producteurs.php');
 include ('controller/films/ajouterFilm.php');
 
